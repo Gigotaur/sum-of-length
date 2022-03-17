@@ -4,15 +4,14 @@
 int main()
 {
     int a, b, n, res, i;
-     scanf(n);
+     scanf("%d", &n);
      cin a =-1;
      cin b =2;
      cin res = a/b;
-      for (i=1; i<n, i++){
+      for (i=1; i< &n, i++){
        a = a*(-1);
        b = b*2;
        res += a/b;
        }
       printf(res);
         return 0;
-}
