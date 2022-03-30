@@ -1,17 +1,19 @@
-#include <stdio.h>
-#include <math.h>
+#include <iostream>
+#include <cmath>
 
 int main()
 {
-    int a, b, n, res, i;
-     scanf("%d", &n);
-     cin a =-1;
-     cin b =2;
-     cin res = a/b;
-      for (i=1; i< &n, i++){
-       a = a*(-1);
-       b = b*2;
-       res += a/b;
-       }
-      printf(res);
-        return 0;
+ int n, res;
+ n =0;
+ res = 0;
+  while ((abs(pow(-1, n)))/(pow(2, n)) > (pow(10, -6)))
+  {
+    res += ((pow(-1, n))/(pow(2, n)));
+    n++;
+    std::cout << (res);
+  }
+  
+  
+
+  return 0;
+}
