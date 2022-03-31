@@ -3,17 +3,17 @@
 
 int main()
 {
- int n, res;
+ double n, res;
  n =0;
  res = 0;
   while ((abs(pow(-1, n)))/(pow(2, n)) > (pow(10, -6)))
   {
     res += ((pow(-1, n))/(pow(2, n)));
     n++;
-    std::cout << (res);
   }
   
-  
+  std::cout << n << std::endl;
+  std::cout << res;
 
   return 0;
 }
